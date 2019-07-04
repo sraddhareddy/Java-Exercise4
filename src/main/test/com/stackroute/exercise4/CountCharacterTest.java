@@ -34,7 +34,7 @@ public class CountCharacterTest {
     @Test
     public void testUpperCaseCharacterCount(){
         int result=countCharacter.count("sradDha",'D');  //counting occurence of character capital letter 'D'
-        assertEquals(1,result);
+        assertNotEquals(2,result);
     }
     @Test
     public void testCharacterCountInSentence(){
